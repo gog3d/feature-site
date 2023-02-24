@@ -1,0 +1,37 @@
+.pic{
+  border: solid 1px green;
+  width:100px;
+  height: 100px;
+}
+.canvas-element {
+  border: 2px dotted blue;
+}
+
+.img-pic {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+}
+.pic-canvas {
+  width: 100px;
+  height: 100px;
+  border: aqua solid 1px;;
+}
+.block{
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  padding: 0px 20px 0px 20px;  
+}
+.inner-block{
+  background-color: red;
+  max-width: 1100px;
+
+  width: 100%;
+  /*margin: 0px 20px 0px 20px;  */
+}
+.App {
+  width: auto;
+}
