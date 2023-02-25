@@ -1,8 +1,18 @@
-.pic{
+.figure_container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid red 1px;
+}
+
+.pic {
   border: solid 1px green;
-  width:100px;
+  width: 100px;
   height: 100px;
 }
+
 .canvas-element {
   border: 2px dotted blue;
 }

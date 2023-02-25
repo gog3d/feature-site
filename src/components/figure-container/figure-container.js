@@ -1,14 +1,14 @@
 import { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
 import SceneInit from '../../lib/SceneInit';
-import style from './figure-container.module.css';
+import styles from './figure-container.module.css';
 import Pic from '../../image/oleg.png';
 
 const FigureContainer = () => {
 
   const [pic, setPic] = useState(Pic);
   const picRef = useRef(null);
-
+/*
   useEffect(() => {
 
 const loader = new THREE.CubeTextureLoader();
@@ -63,7 +63,7 @@ const material4 = new THREE.MeshBasicMaterial( { color: 0xff00ff, envMap: textur
    
   }, [pic]);
 
-
+*/
   const addPicFileHandleer = (event) => {
     if(!event.target.files[0] && event.target.files.length === 0) {
       alert('inter file');
@@ -74,9 +74,9 @@ const material4 = new THREE.MeshBasicMaterial( { color: 0xff00ff, envMap: textur
   };
 
   return (
-    <div>
-      <canvas id='pic' className={style.pic}/>
-      <canvas id='pic2' className={style.pic}/>
+    <div className={styles.figure_container}>
+      <canvas id='pic' className={styles.pic}/>
+      <canvas id='pic2' className={styles.pic}/>
       <form>
         <fieldset>
           <legend>Add Pic</legend>
@@ -86,7 +86,7 @@ const material4 = new THREE.MeshBasicMaterial( { color: 0xff00ff, envMap: textur
           </p>
         </fieldset>
       </form>
-      <img ref={picRef} alt={'picure'} src={pic} className={style['img-pic']} ></img>
+      <img ref={picRef} alt={'picure'} src={pic} className={styles['img-pic']} ></img>
      </div>
   );
 }
