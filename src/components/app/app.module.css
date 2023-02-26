@@ -1,8 +1,13 @@
-.app {
-  background-color: transparent;
-  position: relative;
+.app{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-atems: center;
   justify-content: center;
+}
+
+.canvas_container {
+    background: grey;
+    border: solid red 1px;
+    width: 500px;
+    height: 400px;
 }
