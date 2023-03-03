@@ -1,0 +1,31 @@
+.modal {
+  position: fixed;
+  background: var(--bg-main);
+  left: calc(50% - var(--device-width) / 2);
+  width: var(--device-width);
+  min-height: 162px;
+  border: 1px solid var(--bg-main);
+  border-radius: 12px 12px 0 0;
+  bottom: 0;
+}
+
+.cross {
+  position: absolute;
+  top: 28px;
+  right: 24px;
+  cursor: pointer;
+}
+
+.wrapper {
+  padding: 24px 20px 0 20px;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 29px;
+  color: var(--text-color-black);
+  margin-bottom: 24px;
+}

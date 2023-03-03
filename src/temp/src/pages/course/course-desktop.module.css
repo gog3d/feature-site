@@ -1,0 +1,21 @@
+.course {
+    width: 370px;
+    height: 220px;
+    background-color: aliceblue;
+    padding: 30px 20px;
+    transition: box-shadow 0.3s;
+}
+
+.course:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #BFB7B3;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.desc {
+    text-align: center;
+}

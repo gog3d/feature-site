@@ -1,5 +1,6 @@
 {
-  "name": "react-three-fiber-boilerplate",
+  "homepage": "https://gog3d.github.io/feature-site",
+  "name": "feature-site",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -14,6 +15,8 @@
     "three": "0.146.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

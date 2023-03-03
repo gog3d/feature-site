@@ -1,0 +1,42 @@
+.container {
+  width: var(--device-width);
+  background-color: var(--bg-footer);
+}
+.footer {
+  color: #ffffff;
+  padding: 64px 12% 64px 12%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.list {
+  list-style: none;
+  padding: 0px 0px 96px 0px;
+}
+
+.item {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.made {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 120px;
+}
+
+.text {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  margin-top: 8px;
+}

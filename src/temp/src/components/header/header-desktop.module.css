@@ -1,0 +1,30 @@
+.container {
+  width: var(--device-width);
+  background-color: var(--bg-main);
+
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 72px 12% 0px 12%;
+/*  border: solid green 1px;*/
+}
+
+.logo {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+/*  border: solid green 1px;*/
+}
+
+.text {
+  padding: 0px 0px 0px 16px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: var(--text-color-black);
+  width: 186px;
+  height: 48px;
+}
