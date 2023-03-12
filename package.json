@@ -1,26 +1,33 @@
 {
   "homepage": "https://gog3d.github.io/feature-site",
-  "name": "feature-site",
-  "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "main": "src/index.jsx",
+  "name": "react-glb-models-viewer",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "@react-three/drei": "^9.36.0",
-    "@react-three/fiber": "8.9.1",
-    "leva": "^0.9.34",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "@react-three/fiber": "^8.11.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "gh-pages": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "three": "0.146.0"
+    "three": "^0.150.1",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
