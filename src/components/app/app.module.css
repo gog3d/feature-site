@@ -7,13 +7,82 @@
 /*  background-color: grey;*/
 }
 
-.canvas_container{
-  width: 300px;
-  height: 300px;
-  border: solid black 1px;
-  margin: 50px 0px 0px 0px;
+.cropper {
+  border: solid green 1px;
 }
 
-.control_container {
-  width: 300px;
+.image_cropper {
+  display: flex;
+  flex-direction: column;
 }
+
+.img_container {
+  width: 300px;
+  height: 300px;
+  float: left;
+  border: solid red 1px;
+}
+
+.img_preview_container {
+  width: 300px;
+  height: 200px;
+  margin: 0px 0px 0px 0px;
+/*  border: solid green 1px;*/
+  float: left;
+}
+
+.img_preview {
+  border-radius: 50%;
+}
+
+
+.model {
+  width: 300px;
+  height: 200px;
+  margin: 0px 0px 0px 0px;
+  border: solid green 1px;
+
+}
+/*input*/
+.input_file {
+  position: relative;
+  display: inline-block;
+}
+
+.input_file_btn {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  font-size: 14px;
+  vertical-align: middle;
+  color: rgb(255 255 255);
+  text-align: center;
+  border-radius: 4px;
+  background-color: #419152;
+  line-height: 22px;
+  height: 40px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border: none;
+  margin: 0;
+  transition: background-color 0.2s;
+}
+
+.input_file_text {
+  padding: 0 10px;
+  line-height: 40px;
+  display: inline-block;
+}
+
+.input_file input[type=file] {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  display: block;
+  width: 0;
+  height: 0;
+}
+
+/*input*/
